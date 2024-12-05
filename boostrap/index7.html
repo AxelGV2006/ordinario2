@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación de la Empresa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .welcome {
+            text-align: center;
+            padding: 2em 0;
+        }
+        .services {
+            background-color: #fff;
+            padding: 2em;
+        }
+        .services h2 {
+            text-align: center;
+        }
+        .service {
+            margin: 1em 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2em;
+            background-color: #fff;
+        }
+        .gallery img {
+            margin: 0.5em;
+            max-width: 200px;
+        }
+        .contact {
+            text-align: center;
+            padding: 2em 0;
+            background-color: #333;
+            color: white;
+        }
+        .contact form {
+            display: inline-block;
+            text-align: left;
+        }
+        .contact input, .contact textarea {
+            width: 100%;
+            margin: 0.5em 0;
+            padding: 0.5em;
+        }
+        .contact button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 0.75em 1.5em;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .contact button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <marquee>
+        <h1>Tiendita de tennis</h1>
+    </marquee>
+    </div>
+    <div class="welcome">
+        <h2>Bienvenidos a Nuestra Tiendita</h2>
+        <p>Ofrecemos las mejores opciones en calzado tanto de uso diario, como para realizar deportes.</p>
+    </div>
+    <div class="services">
+        <h2>Servicios</h2>
+        <div class="service">
+            <h3>Consultoría</h3>
+            <p>Puedes cotizar modelos y comprar al mayoreo y menudeo papito.</p>
+        </div>
+        <div class="service">
+            <h3>No andes descalzo</h3>
+            <p>Aqui puedes encontrar los mejores tenis y sobre todo a los mejores precios</p>
+        </div>
+        <div class="service">
+            <h3>Calidad Asegurada</h3>
+            <p>Tenemos relacion de negocios con la distribuidora oficial de Nike asi que todos nuestros productos son 100% originales</p>
+        </div>
+    </div>
+    <div class="gallery">
+        <img src="tienda.jpg.png" alt="Imagen 1">
+        <img src="tienda2.jpg.png" alt="Imagen 2">
+        <img src="tienda3.jpg.png" alt="Imagen 3">
+    </div>
+    <div class="contact">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="email" name="email" placeholder="Correo electrónico">
+            <textarea name="mensaje" placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
